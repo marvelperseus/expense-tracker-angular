@@ -22,19 +22,13 @@ export class AppFooterComponent implements OnInit {
     let url = '';
     switch (link) {
       case 'linkedin':
-        url = 'https://www.linkedin.com/in/erick-boyzo-258023a1/';
         break;
 
       case 'github':
-        url = 'https://github.com/erickboyzo';
+        url = 'https://github.com/marvelperseus';
         break;
 
-      case 'bitbucket':
-        url = 'https://bitbucket.org/erickby/expenses_log';
-        break;
-
-      default:
-        url = 'https://www.linkedin.com/in/erick-boyzo-258023a1/';
+ 
     }
 
     window.open(url);
